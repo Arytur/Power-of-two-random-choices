@@ -9,7 +9,6 @@ def display_histogram(bins):
 
     counts, bins = np.histogram(bins_lengths)
     print(counts, bins)
-    # std_values = [67.04028639556964, 2.213594362117859, 1.8973665961010209]
     print(np.std(bins))
     plt.stairs(counts, bins)
     plt.show()
